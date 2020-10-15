@@ -4,4 +4,3 @@ On the first day of lectures, we installed VirtualBox through the CLI, and creat
 
 Important commands:
   - lsb_release -a
-  - 
