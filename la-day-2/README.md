@@ -1,13 +1,17 @@
-## Comandos
+## Comandos para lembrar
 
 * su - 
   * Assume usuário, com "-" o root, com todas as caracteristicas do mesmo
- 
 * cat /etc/shells
   * Para checar os shells disponíveis 
+* df -h
+  * mostrar partições
+* half: desligar máquina 
+
 
 ### Notas
 
+* LSB: Linux Standard Base
 * Diretório home do usuário root: /root
 * cat /etc/shells
   * Diretório onde os shells disponíveis ficam salvos
@@ -16,10 +20,25 @@
 * Diretórios vs arquivos
   * "d" no inicio das permissões do arquivo/diretório (ex: drwxr-xr-x)
   * "-" significa arquivo comum de texto
+  * "l" link simbolico (pense em atalho)
+  * "b" dispositivo de bloco, armazenamento de info
+  * "c" dispositivo de caractere, transferencia de info
+* sda(a,b,c,d,...): SCSI(Small Computer System Interface) disk A
+* sda1~4: partições primárias
+* sda5~9: partições lógicas
+* /opt: Pacotes estático de aplicações - Pòuco utilizado ultimamente
+* /proc: infos virtuais dinamicas do kernel e processos
+* tmpfs: temporary file system
+*  /srv: arquivos estáticos (ex: paginas web do apache)
+   * Srv is a serve folder. It holds site specific data to be served by the system for protocols such as, ftp, rsync, www, cvs etc. To be compliant distributions include this folder but I have not seen it used much.
+* /var/run: depreciado, agora é mais utilizado /run, mudança recente
+* /var/tmp: arquivos "não tão temporarios", são preservados em reboot
 
 ## FHS
 
 Significados dos diretórios (extraido de https://pt.wikipedia.org/wiki/Filesystem_Hierarchy_Standard):
+
+Material auxiliar: https://www.nixtutor.com/linux/understanding-the-linux-directory-layout/
 
 * /bin - Binários de usuários, essenciais no boot
 * /sbin - Binários do superusuário, essenciais no boot
