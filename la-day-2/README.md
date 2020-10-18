@@ -6,7 +6,7 @@
   * Para checar os shells disponíveis 
 * df -h
   * mostrar partições
-* half: desligar máquina 
+* halt: desligar máquina 
 
 
 ### Notas
