@@ -58,3 +58,19 @@
 * time - run programs and summarize system resource usage
 * dmesg - print or control the kernel ring buffer
 * sync - Synchronize cached writes to persistent storage
+* uname - print system information
+* wc - print newline, word, and byte counts for each file
+* seq - print a sequence of numbers
+* chattr - change file attributes on a Linux file system
+  * study "man chattr"
+* lsattr - list file attributes on a Linux second extended file system
+* cut - remove sections from each line of files
+  * study it's use
+* cmp - compare two files byte by byte
+* diff - compare files line by line
+  * **study it's use**
+* patch - apply a diff file to an original
+  * **study it's use**
+* zless - file perusal filter for crt viewing of compressed text
+* whereis  -  locate the binary, source, and manual page files for a command
+* which - locate a command
