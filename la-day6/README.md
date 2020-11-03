@@ -71,9 +71,13 @@ SO: Debian 10 / Ubuntu 20
 * Recommended reading: 
   * https://www.howtogeek.com/howto/33552/htg-explains-which-linux-file-system-should-you-choose/
   * https://www.thegeekdiary.com/understanding-the-configuration-file-for-mounting-file-systems-etc-fstab/
-  * 
+  * https://docs.oracle.com/cd/E19455-01/805-7228/fsmount-3/index.html
+  * https://linux.die.net/man/8/mount
 
 ### Notable commands
 
 * mklost+found  - create a lost+found directory on a mounted Linux second extended file system
-* 
+* mount - mount a filesystem
+  * Very important, study it's use 
+  * attention to "mount -(options) remount (dir)"
+* lsof - list open files
