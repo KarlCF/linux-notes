@@ -5,6 +5,10 @@
 * Recommended reading: 
   * https://www.maketecheasier.com/differences-between-mbr-and-gpt/
   * https://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/
+* Important:
+  1. Create partition
+  2. Format partition
+  3. Mount partition
 
 
 ### Notable commands
