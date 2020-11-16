@@ -74,7 +74,7 @@
   * https://tldp.org/HOWTO/LVM-HOWTO/
   * https://unix.stackexchange.com/questions/60091/where-is-the-documentation-for-what-sda-sdb-dm-0-dm-1-mean
 * When using lvm, always use the least amount of space required for the application to run, because increasing the storage is easy and can be done while the machine is being used, but decreasing it might be troublesome and require interruptions
-* 
+* TO-DO: Retake the quiz!
 
 ### Notable Commands
 
